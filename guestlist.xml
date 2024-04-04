@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<guestlist>
+    <player>
+        <login>player1</login>
+    </player>
+    <player>
+        <login>player2</login>
+    </player>
+    <player>
+        <login>player3</login>
+    </player>
+</guestlist>
