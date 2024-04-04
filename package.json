@@ -2,8 +2,14 @@
   "name": "guestlist-generator",
   "version": "1.0.0",
   "description": "A package to generate a guestlist for Trackmania servers",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +29,7 @@
   "homepage": "https://github.com/MRegterschot/guestlist-generator#readme",
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   },
   "dependencies": {
