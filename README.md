@@ -1,0 +1,1 @@
+call generateGuestList with a list of player logins and an output path
